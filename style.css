@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgb(155, 155, 155);
+    background: #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,11 +14,9 @@ body {
 }
 
 .post {
-    width: 40%;
-    background: rgb(0, 0, 0);
-    border-radius: 15px;
-    overflow: hidden;
-    color: #fff;
+    width: 30%;
+    background: #fff;
+    color: #000;
     cursor: pointer;
 }
 
@@ -26,7 +24,7 @@ body {
     display: flex;
     align-items: center;
     padding: 10px;
-    background: #000;
+    background: #fff;
 }
 .heading h1{
     text-transform: uppercase;
@@ -37,17 +35,14 @@ body {
 
 .heading i {
     font-size: 30px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .heading-title {
     display: flex;
     flex-direction: column;
     margin-right: auto;
-}
-
-.heading-title h1, .heading-title span {
-    margin: 0;
+    padding-bottom: 5px;
 }
 
 .fa-regular {
@@ -70,13 +65,20 @@ img {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    padding: 5px 0px;
 }
 
 .icons i {
-    font-size: 30px;
+    font-size: 35px;
+    letter-spacing: 5px;
 }
 
 p {
-    margin: 5px 0;
+    margin: 15px 0;
     text-align: justify;
+    font-size: 13px;
+    font-weight: 500;
+}
+span{
+    font-weight: 800;
 }
