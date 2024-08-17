@@ -29,8 +29,10 @@ body {
 .heading h1{
     text-transform: uppercase;
 }
-.heading span{
+.heading .user{
     text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .heading i {
